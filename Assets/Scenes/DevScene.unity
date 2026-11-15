@@ -953,6 +953,7 @@ MonoBehaviour:
   requiredArea: 4
   EndScreen: {fileID: 599391829}
   StartScreen: {fileID: 1489703609}
+  StartButton: {fileID: 2111495548}
   Scan: {fileID: 193783457}
   progressBar: {fileID: 1479143509}
 --- !u!1 &496336192
@@ -1590,6 +1591,7 @@ MonoBehaviour:
   ghoulprefab: {fileID: 3375280277154355001, guid: 918fb28b082fc0c41813ab8211cdb992, type: 3}
   gameManager: {fileID: 1870699419}
   cam: {fileID: 1967968848}
+  PlaneManager: {fileID: 2000963402}
   minSpawnDistance: 1
   maxSpawnDistance: 4
   maxSpawnAngle: 60
@@ -2613,7 +2615,7 @@ MonoBehaviour:
   ghoulscaptured: {fileID: 883573290}
   loseDistance: 0.5
   creepspeed: 1
-  scanRoom: {fileID: 0}
+  scanRoom: {fileID: 493903997}
   StartScreen: {fileID: 1489703609}
   EndScreen: {fileID: 599391829}
   RetryButton: {fileID: 331802615}
