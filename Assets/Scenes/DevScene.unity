@@ -2801,14 +2801,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1967968842}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c2fadf230d1919748a9aa21d40f74619, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.XR.TrackedPoseDriver
   m_TrackingType: 0
   m_UpdateType: 0
-  m_IgnoreTrackingState: 0
+  m_IgnoreTrackingState: 1
   m_PositionInput:
     m_UseReference: 0
     m_Action:
@@ -3052,6 +3052,7 @@ GameObject:
   - component: {fileID: 2000963403}
   - component: {fileID: 2000963402}
   - component: {fileID: 2000963401}
+  - component: {fileID: 2000963406}
   m_Layer: 0
   m_Name: XR Origin (Mobile AR)
   m_TagString: Untagged
@@ -3091,7 +3092,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_PlanePrefab: {fileID: 756591120161108065, guid: a42dc614cd8d42d4bab0267f00391f1d, type: 3}
-  m_DetectionMode: -1
+  m_DetectionMode: 1
 --- !u!114 &2000963403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3139,6 +3140,19 @@ Transform:
   - {fileID: 356538106}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2000963406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000963400}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a7dd1b4a01b43499dde2ed30f49010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OnlyFloorDetector
+  minimumFloorSize: 0.2
 --- !u!1 &2103761776
 GameObject:
   m_ObjectHideFlags: 0
